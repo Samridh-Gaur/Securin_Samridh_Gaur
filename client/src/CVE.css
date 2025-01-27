@@ -1,0 +1,75 @@
+.cve-sep {
+    padding: 2% 4%;
+    font-family: Arial, sans-serif;
+}
+
+.cve-sep h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cve-sep h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cve-sep p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.cve-sep span {
+    color: black;
+    font-weight: 500;
+}
+
+.red {
+    color: red !important;
+}
+
+.metrics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.metrics-table th,
+.metrics-table td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.metrics-table th {
+    font-weight: 600;
+    background-color: white
+}
+
+.cpe-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.cpe-table th,
+.cpe-table td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.cpe-table th {
+    font-weight: 600;
+    background-color: white;
+}
+
+.vector-string {
+    margin-bottom: 20px;
+}
+
+.scores-section {
+    margin: 20px 0;
+}

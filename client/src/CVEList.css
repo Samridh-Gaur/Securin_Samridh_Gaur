@@ -1,0 +1,169 @@
+.cve-list-container {
+  margin: 2rem;
+}
+
+.cve-list-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cve-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cve-list-header {
+  background-color: #c9c4c4;
+  text-transform: uppercase;
+}
+
+.cve-list-header-cell {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.cve-list-row {
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.cve-list-row:hover {
+  background-color: #c9c4c4;
+}
+
+.cve-list-cell {
+  padding: 0.75rem;
+}
+
+.cve-list-no-data {
+  text-align: center;
+}
+
+.cve-list-pagination-button {
+  padding: 0.5rem 1rem;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.cve-list-pagination-button-active {
+  background-color: white;
+}
+
+.cve-list-pagination-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cve-list-pagination-page-info {
+  margin: 0 1rem;
+}
+
+.flex-col.r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.results-per-page {
+  width: 50%;
+  position: relative;
+  top: 6vh;
+}
+
+.cve-list-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: max-content;
+  position: relative;
+  left: 60%;
+  bottom: 2vh;
+}
+
+.cve-list-pagination h4 {
+  margin-right: 20px;
+}
+
+
+/*FILTER-CSS*/
+.filter-dropdown-container {
+  margin: 20px 0;
+  position: relative;
+  display: inline-block;
+  left: 82%;
+  width: 20%;
+}
+
+.filter-dropdown-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-dropdown-button:hover {
+  background-color: #0056b3;
+}
+
+.filter-dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 1000;
+  min-width: 200px;
+}
+
+.filter-dropdown-container:hover .filter-dropdown-menu {
+  display: block;
+}
+
+.filter-dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #333;
+}
+
+.filter-dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.filter-input-container {
+  position: relative;
+  right: 57%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-input {
+  width: 50%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.apply-filter-button {
+  background-color: #28a745;
+  color: white;
+  padding: 0px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 60%;
+}
+
+.apply-filter-button:hover {
+  background-color: #218838;
+}
